@@ -7,9 +7,9 @@ D:.
 |   start_server.sh
 |   
 +---.vscode
-|       launch.json
+|       launch.json            # VS Code debug configuration
 |       
-+---community
++---community                  # Odoo source code
 |   |   .gitignore
 |   |   CONTRIBUTING.md
 |   |   COPYRIGHT
@@ -67,9 +67,9 @@ D:.
 |                       
 +---custom-addons
 |   \---odoo18-module-development
-|       |   odoo.conf
+|       |   odoo.conf         # Configuration file
 |       |   
-|       \---addons
+|       \---addons            # Custom modules
 |           \---Todo-list
 |               |   __init__.py
 |               |   __manifest__.py
@@ -94,7 +94,7 @@ D:.
 |               \---__pycache__
 |                       __init__.cpython-311.pyc
 |                       
-\---env18
+\---env18                      # Python virtual environment
     |   pyvenv.cfg
     |   
     +---Include
