@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="todolist-action" model="ir.actions.act_window">
+        <field name="name">Todo List</field>
+        <field name="res_model">todo.list</field>
+        <field name="view_mode">list,form</field>
+
+    </record>
+</odoo>

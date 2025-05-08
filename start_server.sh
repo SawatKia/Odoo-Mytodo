@@ -1,0 +1,1 @@
+python ./community/odoo-bin -c ./custom-addons/odoo18-module-development/odoo.conf

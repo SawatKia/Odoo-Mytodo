@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Odoo 18 with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "D:/TrinityRoot/assesment/odoo18/community/odoo-bin",
+            "python": "C:/Users/Sawat/AppData/Local/Programs/Python/Python311/python",
+            "console": "integratedTerminal",
+            "args": [
+                "--config=D:/TrinityRoot/assesment/odoo18/custom-addons/odoo18-module-development/odoo.conf"
+            ]
+        }
+    ]
+}

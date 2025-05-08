@@ -1,0 +1,113 @@
+Folder PATH listing for volume Data
+Volume serial number is 4294-1FC7
+D:.
+|   .gitignore
+|   project_structure.txt
+|   README.md
+|   start_server.sh
+|   
++---.vscode
+|       launch.json
+|       
++---community
+|   |   .gitignore
+|   |   CONTRIBUTING.md
+|   |   COPYRIGHT
+|   |   LICENSE
+|   |   MANIFEST.in
+|   |   odoo-bin
+|   |   README.md
+|   |   requirements.txt
+|   |   SECURITY.md
+|   |   setup.cfg
+|   |   setup.py
+|   |   
+|   +---.github
+|   |   |   PULL_REQUEST_TEMPLATE.md
+|   |   |   
+|   |   \---ISSUE_TEMPLATE
+|   |           1_bug_form.yml
+|   |           config.yml
+|   |           
+|   +---.tx
+|   |       config
+|   |       
+|   +---addons
+|   |   |   ...
+|   |               
+|   +---debian
+|   |   |   changelog
+|   |   |   control
+|   |   |   copyright
+|   |   |   init
+|   |   |   install
+|   |   |   lintian-overrides
+|   |   |   logrotate
+|   |   |   odoo.conf
+|   |   |   odoo.docs
+|   |   |   odoo.links
+|   |   |   odoo.service
+|   |   |   postinst
+|   |   |   postrm
+|   |   |   py3dist-overrides
+|   |   |   README.Debian
+|   |   |   rules
+|   |   |   
+|   |   \---source
+|   |           format
+|   |           
+|   +---doc
+|   |   |   ...
+|   |               
+|   +---odoo
+|   |   |   ...
+|   |           
+|   \---setup
+|       |   ...
+|                       
++---custom-addons
+|   \---odoo18-module-development
+|       |   odoo.conf
+|       |   
+|       \---addons
+|           \---Todo-list
+|               |   __init__.py
+|               |   __manifest__.py
+|               |   
+|               +---models
+|               |   |   todolist.py
+|               |   |   __init__.py
+|               |   |   
+|               |   \---__pycache__
+|               |           todolist.cpython-311.pyc
+|               |           todo_list.cpython-311.pyc
+|               |           __init__.cpython-311.pyc
+|               |           
+|               +---security
+|               |       ir.model.access.csv
+|               |       security.xml
+|               |       
+|               +---views
+|               |       todolist_menu.xml
+|               |       todolist_view.xml
+|               |       
+|               \---__pycache__
+|                       __init__.cpython-311.pyc
+|                       
+\---env18
+    |   pyvenv.cfg
+    |   
+    +---Include
+    |   |   ...
+    |
+    +---Lib
+    |   |   ...  
+    |            
+    +---Scripts
+    |   |   ... 
+    |          
+    \---share
+        \---man
+            \---man1
+                    qr.1
+                    
