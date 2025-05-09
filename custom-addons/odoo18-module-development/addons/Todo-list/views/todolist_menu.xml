@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <menuitem id="menu_todo" name="Todo">
-        <menuitem id="todolist" name="Todo List" action="todolist-action"></menuitem>
+    <menuitem id="menu_todo" name="Todo List">
+        <menuitem id="todolist" name="All" action="todolist-action"></menuitem>
     </menuitem>
 </odoo>
