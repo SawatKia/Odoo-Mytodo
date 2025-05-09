@@ -10,7 +10,7 @@ class TodoTag(models.Model):
     color = fields.Integer(string='Color Index')
 
     @api.model
-    def _setup_default_tags(self):
+    def init(self):
         default_tags = ['Work', 'Event', 'Life']
         for tag_name in default_tags:
             existing_tag = self.search([('name', '=', tag_name)])
