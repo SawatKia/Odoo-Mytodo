@@ -3,3 +3,5 @@ access_todo_list_user,access.todo.list.user,model_todo_list,Todo-list.group_todo
 access_todo_list_admin,access.todo.list.admin,model_todo_list,Todo-list.group_todo_admin,1,1,1,1
 access_todo_tag_user,access.todo.tag.user,model_todo_tag,Todo-list.group_todo_user,1,1,1,0
 access_todo_tag_admin,access.todo.tag.admin,model_todo_tag,Todo-list.group_todo_admin,1,1,1,1
+access_todo_item_user,access.todo.item.user,model_todo_item,Todo-list.group_todo_user,1,1,1,0
+access_todo_item_admin,access.todo.item.admin,model_todo_item,Todo-list.group_todo_admin,1,1,1,1
