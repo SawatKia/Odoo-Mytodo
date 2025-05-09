@@ -43,6 +43,8 @@
         <field name="arch" type="xml">
             <form>
                 <header>
+                    <!-- see more widget style
+                    https://www.odoo.com/documentation/18.0/applications/studio/fields.html?highlight=widget -->
                     <field name="status" widget="statusbar"
                         statusbar_visible="draft,incomplete,complete"
                         options="{'clickable': '1'}" />
