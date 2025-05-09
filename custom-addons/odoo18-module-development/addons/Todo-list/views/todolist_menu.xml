@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <menuitem id="menu_todo" name="Todo List">
-        <menuitem id="todolist" name="All" action="todolist-action"></menuitem>
+        <menuitem id="todolist-all-btn" name="All" action="todolist-all-records"></menuitem>
+        <menuitem id="todolist-uncomplete-btn" name="Uncomplete" action="todolist-uncomplete-records"></menuitem>
+        <menuitem id="todolist-complete-btn" name="Complete" action="todolist-complete-records"></menuitem>
     </menuitem>
 </odoo>

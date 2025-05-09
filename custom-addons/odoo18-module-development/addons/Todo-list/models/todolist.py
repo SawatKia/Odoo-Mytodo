@@ -25,13 +25,14 @@ class TodoList(models.Model):
     _name = 'todo.list'
     _description = 'Todo List'
     _order = 'id desc'
-
+    
+    # more fields visit https://www.odoo.com/documentation/18.0/developer/reference/backend/orm.html#fields
     name = fields.Char(string='Title', required=True)
     description = fields.Html(string='Description', sanitize=True)
     start_date = fields.Date(string='Start Date', required=True, default=fields.Date.today)
     end_date = fields.Date(string='End Date', required=True)
-    state = fields.Selection([
-        ('draft', 'Draft'),
+    status = fields.Selection([
+        ('draft', 'Draft'),# value, label
         ('incomplete', 'Incomplete'),
         ('complete', 'Complete')
     ], string='Status', default='draft', tracking=True)

@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <record id="todolist-action" model="ir.actions.act_window">
+    <record id="todolist-all-records" model="ir.actions.act_window">
         <field name="name">Todo List</field>
         <field name="res_model">todo.list</field>
         <field name="view_mode">list,form</field>
+        <!-- more info visit https://www.odoo.com/documentation/18.0/developer/reference/backend/actions.html#window-actions-ir-actions-act-window -->
+    </record>
 
+    <record id="todolist-uncomplete-records" model="ir.actions.act_window">
+        <field name="name">Uncompleted</field>
+        <field name="res_model">todo.list</field>
+        <field name="view_mode">list,form</field>
+        <field name="domain">[('status', '=', 'incomplete')]</field>
+    </record>
+
+    <record id="todolist-complete-records" model="ir.actions.act_window">
+        <field name="name">Completed</field>
+        <field name="res_model">todo.list</field>
+        <field name="view_mode">list,form</field>
+        <field name="domain">[('status', '=', 'complete')]</field>
     </record>
 </odoo>
